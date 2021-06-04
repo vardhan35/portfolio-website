@@ -9,6 +9,10 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio | Home</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
       </Head>
       <div className={styles.home}>
         <h3>Hi My Name Is,</h3>

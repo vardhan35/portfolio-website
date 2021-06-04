@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="hamburger">
           <button
             type="submit"
-            className="navbar_hamburger"
+            className={styles.navbar_hamburger}
             onClick={handleClick}
           >
             <i className={isclick ? "fa fa-times" : "fa fa-bars"}></i>
