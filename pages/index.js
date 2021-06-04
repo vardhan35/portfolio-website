@@ -7,7 +7,10 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <div className="home">
+      <Head>
+        <title>Portfolio | Home</title>
+      </Head>
+      <div className={styles.home}>
         <h3>Hi My Name Is,</h3>
         <h1 className="title">Harshvardhan</h1>
       </div>
