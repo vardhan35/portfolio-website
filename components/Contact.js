@@ -17,40 +17,40 @@ const Contact = () => {
           <div className={styles.socialmedia}>
             <h2 className={styles.bold}>Social Media</h2>
             <div className={styles.socialmedia_id}>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/in/vardhan35/">
                 <Image
                   className={styles.img}
                   src="/linkedIn.png"
                   width={70}
                   height={70}
-                  alt=""
+                  alt="vardhan's linkedIn"
                 />
               </Link>
-              <Link href="/">
-                <Image
-                  className={styles.img}
-                  src="/instaGram.png"
-                  width={70}
-                  height={70}
-                  alt=""
-                />
-              </Link>
-              <Link href="/">
-                <Image
-                  className={styles.img}
-                  src="/twitter.png"
-                  width={70}
-                  height={70}
-                  alt=""
-                />
-              </Link>
-              <Link href="/">
+              <Link href="https://github.com/vardhan35">
                 <Image
                   className={styles.img}
                   src="/gitHub.png"
                   width={70}
                   height={70}
-                  alt=""
+                  alt="vardhan's github"
+                />
+              </Link>
+              <Link href="https://www.instagram.com/vardhan3_5/">
+                <Image
+                  className={styles.img}
+                  src="/instaGram.png"
+                  width={70}
+                  height={70}
+                  alt="vardhan's instaGram"
+                />
+              </Link>
+              <Link href="https://twitter.com/vardhan305">
+                <Image
+                  className={styles.img}
+                  src="/twitter.png"
+                  width={70}
+                  height={70}
+                  alt="vardhan's twitter"
                 />
               </Link>
             </div>
