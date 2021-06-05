@@ -1,7 +1,62 @@
+import styles from "../styles/Contact.module.css";
+import Link from "next/link";
+import Image from "next/image";
+
 const Contact = () => {
   return (
-    <div className="contact" id="contact">
-      <h1>Hello Contacts</h1>
+    <div className={styles.container} id="contact">
+      <div className={styles.contact}>
+        <header className={styles.header}>
+          <h1>Contact</h1>
+        </header>
+        <div className={styles.card}>
+          <div className={styles.email}>
+            <h2>Harshvardhan Kalse</h2>
+            <h2 className={styles.email_id}>harshwardhankalse03@gmail.com</h2>
+          </div>
+          <div className={styles.socialmedia}>
+            <h2 className={styles.bold}>Social Media</h2>
+            <div className={styles.socialmedia_id}>
+              <Link href="/">
+                <Image
+                  className={styles.img}
+                  src="/linkedIn.png"
+                  width={70}
+                  height={70}
+                  alt=""
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  className={styles.img}
+                  src="/instaGram.png"
+                  width={70}
+                  height={70}
+                  alt=""
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  className={styles.img}
+                  src="/twitter.png"
+                  width={70}
+                  height={70}
+                  alt=""
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  className={styles.img}
+                  src="/gitHub.png"
+                  width={70}
+                  height={70}
+                  alt=""
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
