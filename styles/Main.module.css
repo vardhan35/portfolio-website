@@ -8,6 +8,7 @@
 }
 
 .main{
+  color: #1b1b1b;
   width:90%;
   margin: auto;
   text-align: left;
@@ -15,7 +16,7 @@
 .main h1{
     font-size:7rem;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 .main h3{

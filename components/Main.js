@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <h3>Hi My Name Is,</h3>
+        <h3>Namaste, I Am</h3>
         <h1 className={styles.title}>Harshvardhan</h1>
         <div className={styles.main_actions}>
           <Link href="/projects">
