@@ -9,7 +9,7 @@ const Main = () => {
         <h1 className={styles.title}>Harshvardhan</h1>
         <div className={styles.main_actions}>
           <Link href="/projects">
-            <button className={styles.main_project_btn}>PROJECTS</button>
+            <button className={styles.main_project_btn}>PORTFOLIO</button>
           </Link>
           <button className={styles.main_resume_btn}>RESUME</button>
         </div>

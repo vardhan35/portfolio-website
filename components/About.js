@@ -19,7 +19,8 @@ const About = () => {
               <p className={styles.card_para}>
                 I am Frontend Developer working with React Js, JavaScript,
                 Html,Css, scss,and next-js I have Created some projects in above
-                mentions You will find them <Link href="/projects">Here</Link>
+                mentions You will find them{" "}
+                <Link href="/projects">Portfolio</Link>
               </p>
               <p className={styles.card_para}>
                 I have done Bachelors study in Mechanicle Engineering but I

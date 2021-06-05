@@ -16,22 +16,22 @@ const Navbar = () => {
         <div className={isclick ? styles.navbar_active : styles.navbar}>
           <Link href="/">
             <a className={styles.nav_item} onClick={handleClick}>
-              HOME
+              Home
             </a>
           </Link>
           <Link href="/#about">
             <a className={styles.nav_item} onClick={handleClick}>
-              ABOUT
+              About
             </a>
           </Link>
           <Link href="/#contact">
             <a className={styles.nav_item} onClick={handleClick}>
-              CONTACT
+              Contact
             </a>
           </Link>
           <Link href="/projects">
             <a className={styles.nav_item} onClick={handleClick}>
-              PROJECTS
+              Portfolio
             </a>
           </Link>
         </div>
