@@ -1,8 +1,12 @@
+import styles from "../styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <dov className="Footer">
-      <h1>Hello Footer</h1>
-    </dov>
+    <footer className={styles.container}>
+      <dov className={styles.footer}>
+        <p>2021,Harshvardhan</p>
+      </dov>
+    </footer>
   );
 };
 
