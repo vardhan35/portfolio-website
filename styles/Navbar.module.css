@@ -30,6 +30,7 @@
   display: none;
 }
 .navbar_active{
+  max-width: 900px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;

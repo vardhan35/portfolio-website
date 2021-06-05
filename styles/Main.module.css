@@ -1,26 +1,30 @@
 
 .container{
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .main{
+  /* New */
+  display: flex;
   color: #1b1b1b;
-  width:90%;
-  margin: auto;
+  width: 90%;
   text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .main h1{
-    font-size:7rem;
+    font-size:6rem;
     text-transform: uppercase;
     line-height: 1.5;
 }
 
 .main h3{
-  line-height: 1;
+  line-height: 1.5;
   font-size: 2rem;
   margin-left: 0.25em;
 }
@@ -71,15 +75,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-
-.about{
-  height:100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: tomato;
-}
 
 @media (max-width:500px){
   .main h3{
