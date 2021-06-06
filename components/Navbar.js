@@ -10,9 +10,6 @@ const Navbar = () => {
   return (
     <div className={styles.navbar_container}>
       <nav className={styles.nav}>
-        {/* <div className={styles.logo}>
-          <h1>VARDHAN</h1>
-        </div> */}
         <div className={isclick ? styles.navbar_active : styles.navbar}>
           <Link href="/">
             <a className={styles.nav_item} onClick={handleClick}>
