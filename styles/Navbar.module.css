@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 4;
   background-color:#f7f3f0;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 
 
 .navbar{
-  margin: -200% auto;
+  margin: -400% auto;
   transition: all 0.4s ease-in-out;
   display: flex;
   justify-content: space-around;
