@@ -1,12 +1,13 @@
-import ProjectCrd from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 import styles from "../../styles/Project.module.css";
+import { Data } from "../../public/Data";
+
 const ProjectList = () => {
   return (
     <div className={styles.project_list}>
-      <ProjectCrd />
-      <ProjectCrd />
-      <ProjectCrd />
-      <ProjectCrd />
+      {Data.map((project) => {
+        return <ProjectCard key={project.id} project={project} />;
+      })}
     </div>
   );
 };
