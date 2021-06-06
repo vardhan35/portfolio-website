@@ -1,16 +1,11 @@
 import styles from "../styles/Project.module.css";
-import Head from "next/head";
+import HeadComponent from "../components/HeadComponent";
+// import HeadComponent from "../components/HeadComponent";
 
 const Projects = () => {
   return (
     <>
-      <Head>
-        <title>Portfolio | Projects</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        ></link>
-      </Head>
+      <HeadComponent value={"Projects"} />
       <div className={styles.project}>
         <h1>Project</h1>
       </div>
