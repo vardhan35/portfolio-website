@@ -1,5 +1,4 @@
 
-
 .head{
     max-width: 1280px;
     text-align: center;
@@ -20,8 +19,6 @@
 
 }
 
-/* Project List */
-
 .project_list{
     margin: auto;
     max-width:1280px;
@@ -34,15 +31,16 @@
   margin: 1em auto 3em;
   background-color:#f7f3f0;
   padding: 0.5em;
-  /*  */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-
 .card_left{
   width: 40%;
   margin: auto;
+}
+.card_left_img{
+  width: 100%;
 }
 .card_right{
   width: 60%;
@@ -50,7 +48,6 @@
   flex-direction: column;
   margin-left: 1em;
 }
-
 
 .card_header{
   margin: 0 auto 1em 0;
@@ -61,10 +58,8 @@
   font-weight: 500;
 }
 
-
 .project_info{
     margin: 0.25em auto auto 0;
-
 }
 
 .project_info_para{
@@ -72,14 +67,11 @@
     font-weight: 500;
 }
 
-
 .project_action{
     margin: 1em auto 1em 0;
     display: flex;
     font-size: 1rem;
 }
-
-
 
 .btn_project{
   width: 120px;
@@ -109,12 +101,46 @@
 }
 
 
-@media (max-width:1030px){
-  .project_action{
-    padding: 1em 0;
-    margin: 2em auto 1em;
-    width: 100%;
-    display: flex;
+@media (max-width:990px){
+  .card{
+    height: 100%;
+    width: 90%;
+    flex-direction: column;
   }
 
+  .card_left{
+    width: 100%;
+    margin: 1em auto;
+  }
+  .card_right{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .project_info_para{
+    width: 90%;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .card_header h2{
+    color: #ff4500;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .project_action{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:1em  auto;
+  }
+  .btn_project{
+    margin: 0;
+  } 
+  .btn_code{
+    margin: 0;
+  }
 }
+
