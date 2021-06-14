@@ -10,7 +10,6 @@
 }
 
 .main{
-  /* New */
   display: flex;
   color: #1b1b1b;
   width: 90%;
@@ -115,5 +114,20 @@
   .main h1{
     line-height: 1.5;
     font-size:5rem;
+  }
+}
+
+@media (max-width:990px){
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_project_btn{
+    margin: auto 1em auto auto;
+  }
+  .main_resume_btn{
+    margin: auto auto auto 1em;
   }
 }

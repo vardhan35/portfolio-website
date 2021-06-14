@@ -5,8 +5,8 @@ const Main = () => {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <h3>Namaste, I Am</h3>
         <h1 className={styles.title}>Harshvardhan</h1>
+        <h3>I Am Developer</h3>
         <div className={styles.main_actions}>
           <Link href="/projects">
             <button className={styles.main_project_btn}>PORTFOLIO</button>
