@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Template from "../components/Template";
+import Template from "../components/Template/Template";
 
 function MyApp({ Component, pageProps }) {
   return (

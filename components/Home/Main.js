@@ -1,4 +1,4 @@
-import styles from "../styles/Main.module.css";
+import styles from "../../styles/Main.module.css";
 import Link from "next/link";
 
 const Main = () => {
