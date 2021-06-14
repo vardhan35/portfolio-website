@@ -2,7 +2,7 @@ export const Data = [
   {
     id: 1,
     name: "e-commerce Website",
-    img: "/projectImages/ecom-app.png",
+    img: "/projectImages/ecom-app-1.jpg",
     discription:
       "E-commerce Website having login logout functionality and add-to-cart too and created with React-js,Html,css,javascript",
     weblink: `https://mangekyou-amaterasu.netlify.app/`,
@@ -11,7 +11,7 @@ export const Data = [
   {
     id: 2,
     name: "Movie Details App",
-    img: "/projectImages/movie-app.png",
+    img: "/projectImages/movie-app-1.jpg",
     discription:
       "Movie Details App where You can search for any movie and Details about it Created with React-js,Html,css,javascript",
     weblink: `https://movie-details-app.netlify.app/`,

@@ -1,18 +1,11 @@
 import styles from "../../styles/Project.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const ProjectCrd = ({ project }) => {
   return (
     <div key={project.id} className={styles.card}>
       <div className={styles.card_left}>
-        <Image
-          className={styles.img}
-          src={project.img}
-          width={500}
-          height={300}
-          alt="vardhan's linkedIn"
-        />
+        <img src={project.img} className={styles.card_left_img} />
       </div>
       <div className={styles.card_right}>
         <header className={styles.card_header}>
@@ -24,7 +17,7 @@ const ProjectCrd = ({ project }) => {
         <div className={styles.project_action}>
           <div className={styles.link}>
             <Link href={`${project.weblink}`}>
-              <button className={styles.btn_project}>Live project</button>
+              <button className={styles.btn_project}>Live Website</button>
             </Link>
           </div>
           <div className={styles.link}>
