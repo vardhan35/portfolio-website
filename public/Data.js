@@ -23,7 +23,7 @@ export const Data = [
     img: "/projectImages/wheather-app.png",
     discription:
       "Wheather App where you can Search for any cities wheather created with React-js,Html,css,scss,javascript and configured with webpack ",
-    webslink: `https://wheather-react-app.netlify.app/`,
+    weblink: `https://wheather-react-app.netlify.app/`,
     githublink: `https://github.com/vardhan35/wheather-app`,
   },
   {
@@ -32,7 +32,7 @@ export const Data = [
     img: "/projectImages/todoApp.png",
     discription:
       "Todo App where you can Create update And delete Your Todos it's created with React-js,Html,css,scss,javascript and configured with webpack",
-    webslink: `https://todo-context-app.netlify.app/`,
+    weblink: `https://todo-context-app.netlify.app/`,
     githublink: `https://github.com/vardhan35/Todo-context`,
   },
 ];
