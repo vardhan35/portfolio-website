@@ -6,7 +6,7 @@ const Main = () => {
     <div className={styles.container}>
       <div className={styles.main}>
         <h1 className={styles.title}>Harshvardhan</h1>
-        <h3>I'm Frontend Developer</h3>
+        <h3>I'm Front-End Developer</h3>
         <div className={styles.main_actions}>
           <Link href="/projects">
             <button className={styles.main_project_btn}>PORTFOLIO</button>
