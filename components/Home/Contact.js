@@ -14,7 +14,7 @@ const Contact = () => {
             <h2>Harshvardhan Kalse</h2>
             <h2 className={styles.email_id}>harshwardhankalse03@gmail.com</h2>
             <h2>+91-7558459296</h2>
-            <p>Murud-Latur,Maharashtra,Bharat</p>
+            <h2>Murud-Latur,Maharashtra,Bharat</h2>
           </div>
           <div className={styles.socialmedia}>
             <h2 className={styles.bold}>Social Media</h2>
