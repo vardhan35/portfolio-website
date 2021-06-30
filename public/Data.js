@@ -35,4 +35,13 @@ export const Data = [
     weblink: `https://todo-context-app.netlify.app/`,
     githublink: `https://github.com/vardhan35/Todo-context`,
   },
+    {
+    id: 5,
+    name: "My Own Portfolio",
+    img: "/projectImages/pfolio.png",
+    discription:
+      "Portfolio website where I added all of My Projects created with React-js,Html,css,scss,javascript and configured with webpack",
+    weblink: ``,
+    githublink: `https://github.com/vardhan35/Todo-context`,
+  },
 ];

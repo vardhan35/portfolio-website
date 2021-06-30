@@ -13,6 +13,8 @@ const Contact = () => {
           <div className={styles.email}>
             <h2>Harshvardhan Kalse</h2>
             <h2 className={styles.email_id}>harshwardhankalse03@gmail.com</h2>
+            <h2>+91-7558459296</h2>
+            <p>Murud-Latur,Maharashtra,Bharat</p>
           </div>
           <div className={styles.socialmedia}>
             <h2 className={styles.bold}>Social Media</h2>
@@ -20,7 +22,7 @@ const Contact = () => {
               <Link href="https://www.linkedin.com/in/vardhan35/">
                 <Image
                   className={styles.img}
-                  src="/linkedIn.png"
+                  src="/icons/linkedIn.png"
                   width={70}
                   height={70}
                   alt="vardhan's linkedIn"
@@ -29,7 +31,7 @@ const Contact = () => {
               <Link href="https://github.com/vardhan35">
                 <Image
                   className={styles.img}
-                  src="/gitHub.png"
+                  src="/icons/gitHub.png"
                   width={70}
                   height={70}
                   alt="vardhan's github"
@@ -38,7 +40,7 @@ const Contact = () => {
               <Link href="https://www.instagram.com/vardhan3_5/">
                 <Image
                   className={styles.img}
-                  src="/instaGram.png"
+                  src="/icons/instaGram.png"
                   width={70}
                   height={70}
                   alt="vardhan's instaGram"
@@ -47,7 +49,7 @@ const Contact = () => {
               <Link href="https://twitter.com/vardhan305">
                 <Image
                   className={styles.img}
-                  src="/twitter.png"
+                  src="/icons/twitter.png"
                   width={70}
                   height={70}
                   alt="vardhan's twitter"
