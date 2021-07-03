@@ -41,7 +41,7 @@ export const Data = [
     img: "/projectImages/pfolio.png",
     discription:
       "Portfolio website where I added all of My Projects created with React-js,Html,css,scss,javascript and configured with webpack",
-    weblink: ``,
+    weblink: `/`,
     githublink: `https://github.com/vardhan35/Todo-context`,
   },
 ];
