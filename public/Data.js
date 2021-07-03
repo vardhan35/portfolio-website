@@ -32,10 +32,10 @@ export const Data = [
     img: "/projectImages/todoApp.png",
     discription:
       "Todo App where you can Create update And delete Your Todos it's created with React-js,Html,css,scss,javascript and configured with webpack",
-    weblink: `https://todo-context-app.netlify.app/`,
+    weblink: `https://todo-manager-app.netlify.app/`,
     githublink: `https://github.com/vardhan35/Todo-context`,
   },
-    {
+  {
     id: 5,
     name: "My Own Portfolio",
     img: "/projectImages/pfolio.png",
